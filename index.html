@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-.button1 {
-  background-color: #FF8F00;
-  border: none;
-  color: #311B92;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-</style>
+<html lang="en">
+  <head>
+    <style>
+      .button1 {
+        background-color: #FF8F00;
+        border: none;
+        color: #311B92;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+      }
+      .button:hover {
+        background-color: #200A81
+      }
+      .button:active {
+        background-color: #200A81;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+  </style>
 </head>
 <body>
 
-<h1>Welcome!</h1>
+  <h1>Welcome!</h1>
 
-<a href="first_page" class="button1">First Page</a>
-<button class="button1">Button</button>
+  <a href="first_page" class="button1">First Page</a>
+  <button class="button1">Button</button>
 
 </body>
 </html>
